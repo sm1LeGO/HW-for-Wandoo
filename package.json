@@ -1,0 +1,15 @@
+{
+  "name": "swaper-ui-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen https://swaper.com/en/login"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10",
+    "dotenv": "^16.4.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -23,7 +23,7 @@ public class LoginAndBalanceTest extends TestBase {
                 .header("x-xsrf-token", session.csrfToken)
                 .body("""
                     {
-                        "bookingDateFrom": "2024-01-01",
+                        "bookingDateFrom": "2025-01-01",
                         "bookingDateTo": "2025-12-31"
                     }
                     """)
